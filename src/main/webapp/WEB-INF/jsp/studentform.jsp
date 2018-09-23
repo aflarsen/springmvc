@@ -13,9 +13,9 @@
     <table>
         <tr>
             <td>
-                <form:select path="name" multiple="true">
-                    <form:option value="NONE" label="------ Choose one or many -------" />
-                    <form:options items="${students}" itemValue="id" itemLabel="name" />
+                <form:select path="name" multiple="true" >
+                    <form:option value="NONE" label="------ Choose one or many -------" title="Tooltip" />
+                    <form:options items="${students}" itemValue="id" itemLabel="name" title="TOOOOOLS" />
                 </form:select>
             </td>
         </tr>
